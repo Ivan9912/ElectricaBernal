@@ -51,7 +51,7 @@ header nav .menu__item  {
     display: flex;
 
 }
-a:hover {
+.menu__item :hover {
     transition: 2s;
     color: #F66B0E;
 }
