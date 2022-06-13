@@ -1,0 +1,241 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Koulen&display=swap');
+/* NORMALIZE */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    background-image: url(../css/imagenes/white-painted-wall-texture-background.jpg);
+    background-attachment: fixed;
+    overflow: scroll;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Koulen', cursive;
+    color: black;
+    
+    }
+ul {
+    list-style-type: none;
+ 
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Koulen', cursive;
+   
+}
+img {
+    width: 100%;
+}
+/* HEADER */ 
+header {
+    display: inline-block;
+    align-items: center;
+    justify-content: space-evenly;
+    padding:10rem ;
+    border-bottom: 2px solid ;
+    flex-basis: content;
+}
+header {
+    display: flex;
+    background-image: url(../Figma/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header nav .menu__item  {
+    display: flex;
+
+}
+a:hover {
+    transition: 2s;
+    color: #F66B0E;
+}
+header nav .menu {
+    display: flex ;
+    gap: 2rem;
+}
+.menu .menu__link {
+    font-size: 20px;
+}
+@media  (max-width: 600px){
+    .menu {
+        flex-direction: column;
+    }
+}
+
+
+
+/* INDEX */ 
+.section__article {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+
+}
+.grid-facebook {
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    padding: 3px;
+}
+.grid-facebook {
+    display: flex;
+    width: 98%;
+    max-width: 1300px;
+    margin: auto;
+}
+.facebook_publication > div {
+    display: flex;
+    padding: 10px;
+    margin: 3px;
+    color: black;
+    box-shadow: 2px 2px 10px rgba(0,0,0,.25);
+}
+.grid-facebook {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:1fr 1fr 1fr; 
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(150px,350px));
+}
+
+    /* TIENDA */
+.imagenes-tienda {
+    width: 300px;
+    height: 300px;
+    border: 4px solid black;
+    margin: 15px; 
+}
+
+
+.marcas__marcas {
+    width: 300px;
+    height: 300px;
+    border: 4px solid black;
+    margin: 15px;
+    text-align: center;
+    line-height: 150px;
+}
+.grid-layout {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.span {
+    font-size: 15px;
+    padding: 10px;
+    display: inline-block;
+    justify-content: center;
+    flex-basis: content;
+}
+
+
+/* NOSOTROS */
+.conteiner__grid {
+    display: flex;
+    width: 98%;
+    max-width: 1000px;
+    margin: auto;
+    font-size: 15px;
+    line-height: 15px;
+    text-align: center;
+}
+.conteiner__grid > div {
+    display: flex;
+    padding: 20px;
+
+}
+.conteiner__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows:1fr 1fr 1fr; 
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(150px,300px));
+    justify-content: center;
+}
+
+    /* TIENDA */
+.imagenes-tienda {
+    width: 300px;
+    height: 300px;
+    border: 4px solid black;
+    margin: 15px;
+    /*text-align: center;
+    line-height: 150px;*/   
+}
+
+
+.marcas__marcas {
+    width: 300px;
+    height: 300px;
+    border: 4px solid black;
+    margin: 15px;
+    text-align: center;
+    line-height: 150px;
+}
+.grid-layout {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* CONTACTO */
+.container__contact__list{
+    display: flex;
+
+}
+.Redes {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+.contact__list{
+    display: inline-block;
+    font-size: 15px;
+    padding: 3rem;
+    flex-direction: column;   
+}
+@media  (max-width: 600px){
+    .container__contact__list {
+        flex-direction: column;
+    }
+}
+.contact__maps {
+    display: flex;
+    justify-content: center;
+}
+
+
+.banner__footer {
+    display: flex;
+    background-image:url(../Figma/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-basis: content;
+
+}
+
+.banner__footer{
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    gap: 2rem;
+}
+.table__footer {
+    display: inline-block;
+    font-size: 15px;
+}
+.span__footer {
+    display: inline-block;
+    font-size: 15px;
+}
+
+@media  (max-width: 600px){
+    .banner__footer {
+        flex-direction: column;
+    }
+}

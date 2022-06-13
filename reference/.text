@@ -1,0 +1,59 @@
+https://iconos8.es/
+https://www.youtube.com
+https://www.facebook.com
+https://www.instagram.com
+https://www.whatsapp.com
+https://www.linkedin.com
+https://ar.pinterest.com
+
+Hola como estas?
+                    Te cuento un poco de nosotros, somos proveedores de materiales eléctricos y realizamos ventas por menor.
+                    Trabajamos arduamente en solucionar todos los problemas que surgen día tras día, también brindamos asesoramiento con materiales de calidad y precio.
+                    Ante cualquier duda o inconveniente no dudes en comunicarte.
+                    <br>
+                    Realizamos ventas de productos eléctricos:
+                    -Instalaciones Eléctricas Industriales, Comerciales y Civiles-Automatización, Tableros, Seguridad Electrónica, Alarmas, Telefonía, CCTV, Redes
+                    <br>
+                    Saludos!
+
+
+
+             style="border:none;width="300" height="517" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"width="100%"
+            
+
+            
+             style="border:none;overflow:hidden" width="300" height="555" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"width="100%"
+
+
+
+             width="300" height="563" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; 
+            clipboard-write; encrypted-media; picture-in-picture; web-share"width="100%"
+
+
+             width="300" height="620" style="border:none;overflow:hidden" scrolling="yes" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"width="100%"
+
+
+@media screen and (max-width: 366px) {
+header {
+    flex-direction: column;
+    grid-gap: 0;
+}
+
+.menu__item {
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+}
+}
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
