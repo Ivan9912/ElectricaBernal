@@ -295,9 +295,9 @@ header nav .menu__item  {
 
 }
 .menu__item :hover {
-    transition: 2s;
+    transition: 3s;
     color: #F66B0E;
-    border-bottom: 2px solid ;
+    border-bottom: 1px solid ;
 }
 header nav .menu {
     display: flex ;
@@ -461,6 +461,12 @@ box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 11px 6px 22
 .contact__maps {
     display: flex;
     justify-content: center;
+}
+.maps__iframe {
+  border: 3px outset #E96122;
+  border-radius: 15px 21px 15px 30px;
+  
+
 }
 
 .banner__footer {
